@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE base SYSTEM "http://www.4d.com/dtd/2007/base.dtd" >
+<base name="svg-edit" uuid="DE571ECBF66D4A9EBB45311B681C4E10" collation_locale="fr">
+	<schema name="DEFAULT_SCHEMA"/>
+	<base_extra package_name="svg-edit" structure_file_name="svg-edit" data_file_path=":svg-edit.4DD" __stringCompHash="icu:63.1.0" __keywordBuildingHash="icu:63.1.0"/>
+</base>

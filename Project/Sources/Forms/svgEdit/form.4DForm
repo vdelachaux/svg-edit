@@ -1,0 +1,133 @@
+﻿{
+	"destination": "detailScreen",
+	"windowTitle": "SVG-edit",
+	"windowMinWidth": 700,
+	"windowMinHeight": 520,
+	"width": 700,
+	"height": 520,
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onCloseBox"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "595pt",
+		"paperHeight": "842pt"
+	},
+	"pages": [
+		{
+			"objects": {
+				"Bouton 3D": {
+					"type": "button",
+					"top": 0,
+					"left": 3,
+					"width": 52,
+					"height": 19,
+					"dataSource": "menuFile",
+					"fontFamily": "Lucida Grande Bold",
+					"fontSize": 11,
+					"fontWeight": "bold",
+					"focusable": false,
+					"text": "Fichier",
+					"popupPlacement": "linked",
+					"style": "toolbar",
+					"method": "ObjectMethods/Bouton 3D.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Bouton 3D1": {
+					"type": "button",
+					"top": 0,
+					"left": 61,
+					"width": 52,
+					"height": 19,
+					"dataSource": "menuEdit",
+					"fontFamily": "Lucida Grande Bold",
+					"fontSize": 11,
+					"fontWeight": "bold",
+					"focusable": false,
+					"text": "Edition",
+					"popupPlacement": "linked",
+					"style": "toolbar",
+					"method": "ObjectMethods/Bouton 3D1.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Bouton 3D2": {
+					"type": "button",
+					"top": 0,
+					"left": 117,
+					"width": 52,
+					"height": 19,
+					"fontFamily": "Lucida Grande Bold",
+					"fontSize": 11,
+					"fontWeight": "bold",
+					"focusable": false,
+					"text": "Test",
+					"popupPlacement": "linked",
+					"style": "toolbar",
+					"method": "ObjectMethods/Bouton 3D2.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Ligne": {
+					"type": "line",
+					"top": 19,
+					"left": 0,
+					"width": 700,
+					"sizingX": "grow"
+				}
+			}
+		},
+		{
+			"objects": {
+				"WebArea": {
+					"type": "webArea",
+					"top": 21,
+					"left": 0,
+					"width": 700,
+					"height": 499,
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"dataSource": "WebArea",
+					"urlSource": "WebArea_url",
+					"progressSource": "WebArea_progress",
+					"method": "ObjectMethods/WebArea.4dm",
+					"events": [
+						"onLoad",
+						"onBeginURLLoading",
+						"onURLResourceLoading",
+						"onEndURLLoading",
+						"onURLLoadingError",
+						"onURLFiltering",
+						"onOpenExternalLink",
+						"onWindowOpeningDenied"
+					]
+				}
+			}
+		}
+	],
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {},
+			"View 2": {},
+			"View 3": {},
+			"View 4": {},
+			"View 5": {},
+			"View 6": {},
+			"View 7": {},
+			"View 8": {},
+			"View 9": {}
+		}
+	}
+}
